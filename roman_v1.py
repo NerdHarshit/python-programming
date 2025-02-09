@@ -1,7 +1,7 @@
-#program to convert myclass.roman numbers to int and vice versa
+#program to convert roman numbers to int 
 
 class myclass:
-    roman = ""
+    roman = "" #using class variable since using a normal variable as global isnt working idk why
 
 num = input("enter your number in int")#take str
 
